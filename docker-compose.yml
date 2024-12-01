@@ -2,6 +2,7 @@ version: '3.3'
 services:
   snake:
     image: 'dchirwa/qr-code-generator:latest'
+    container_name: qr_app
     environment:
       - PORT=3000
     ports:
